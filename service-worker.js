@@ -15,6 +15,7 @@ const PRECACHE_URLS = [
     "/favicon/favicon-16x16.png",
     "/favicon/favicon-32x32.png",
     "/favicon/favicon.ico",
+    "/favicon/maskable_icon.png",
     "/favicon/mstile-70x70.png",
     "/favicon/mstile-144x144.png",
     "/favicon/mstile-150x150.png",
