@@ -1,29 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8"/>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
         <title>obany</title>
-        <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-        <link rel="manifest" href="/favicon/site.webmanifest">
-        <link rel="shortcut icon" href="/favicon/favicon.ico"><meta charset="utf-8"/>
-        <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/>
-        <meta name="msapplication-TileColor" content="#da532c">
-        <meta name="msapplication-config" content="/favicon/browserconfig.xml">
-        <meta name="theme-color" content="#ffffff">
-        <meta name="author" content="Martyn Janes" />
-        <meta name="description" content="Martyn Janes, obany" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
+        <link rel="manifest" href="/favicon/site.webmanifest" />
+        <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5" />
+        <link rel="shortcut icon" href="/favicon/favicon.ico" />
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
+        <meta name="theme-color" content="#ffffff" />
         <style>
-            html, body {
+            @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+            * {
+                font-family: Comfortaa;
+            }
+            html,
+            body {
                 width: 100vw;
                 height: 100vh;
                 margin: 0;
                 padding: 0;
             }
+
             body {
                 display: flex;
+                flex-direction: column;
             }
+
             .container {
                 flex: 1;
                 display: flex;
@@ -32,13 +38,23 @@
                 align-items: center;
                 gap: 5vh;
             }
+
             .logo {
                 max-height: 20vh;
                 max-width: 80vw;
             }
+
             .github {
                 max-width: 20vw;
                 max-height: 5vh;
+            }
+
+            footer {
+                display: flex;
+                justify-content: center;
+                padding: 10px;
+                background-color: #58595b;
+                color: #ffffff;
             }
         </style>
     </head>
@@ -47,5 +63,6 @@
             <img src="./images/logo.svg" alt="obany" class="logo" />
             <a href="https://github.com/obany"><img src="./images/github.svg" alt="GitHub" class="github" /></a>
         </div>
+        <footer>&copy; 2022 Obany Ltd.</footer>
     </body>
 </html>
